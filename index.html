@@ -105,7 +105,6 @@
     .event-scene { --parallax-y: 0px; position: relative; display: flex; align-items: flex-end; min-height: 100svh; padding: 22px 20px 30px; isolation: isolate; overflow: hidden; background: var(--champagne); }
     .event-scene::before { content: ""; position: absolute; inset: -5%; z-index: -2; background-position: center; background-size: cover; transform: translate3d(0, var(--parallax-y), 0) scale(1.06); will-change: transform; }
     .event-scene::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(31,23,20,.03) 22%, rgba(31,23,20,.12) 52%, rgba(31,23,20,.55) 100%); }
-    .engagement::before { background-image: url("assets/engagement-illustrated-v1.png"); }
     .church::before { background-image: url("assets/church-illustrated-v1.png"); }
     .reception::before { background-image: url("assets/reception-illustrated-v1.png"); }
     .event-card { position: relative; z-index: 1; width: min(100%, 630px); margin: 0 auto; padding: 28px 24px 24px; border: 1px solid rgba(200,125,135,.28); background: rgba(251,234,214,.96); box-shadow: 0 25px 70px rgba(35,25,21,.2); backdrop-filter: blur(16px); }
@@ -160,7 +159,6 @@
     }
     @media (min-width: 1100px) {
       .event-scene { min-height: 88vh; background-attachment: fixed; }
-      .engagement::before { background-position: center 68%; }
       .event-card { width: 540px; }
     }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; } .feather-field { display: none; } .event-scene::before { transform: scale(1.06); } }
@@ -211,21 +209,12 @@
 
     <section class="events-page" id="page-two" aria-labelledby="events-heading">
       <header class="events-title">
-        <div><p class="eyebrow reveal">The wedding celebrations</p><h2 class="reveal delay-1" id="events-heading">Three meaningful <span>moments</span></h2></div>
+        <div><p class="eyebrow reveal">The wedding celebrations</p><h2 class="reveal delay-1" id="events-heading">Two meaningful <span>moments</span></h2></div>
       </header>
-
-      <article class="event-scene engagement">
-        <div class="event-card reveal">
-          <div class="event-topline"><p class="event-kicker">The beginning</p><span class="event-number">01</span></div>
-          <h3>The <span>Engagement</span></h3>
-          <dl class="event-facts"><div class="fact"><dt>Date</dt><dd>Sunday, 27 December 2026</dd></div><div class="fact"><dt>Time</dt><dd>6:30 PM</dd></div><div class="fact"><dt>Venue</dt><dd>JK Mahal<br>Melapalayam, Tirunelveli</dd></div></dl>
-          <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=JK+Mahal+Melapalayam+Tirunelveli" target="_blank" rel="noopener noreferrer">View location <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5m0 0H8m11 0v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-        </div>
-      </article>
 
       <article class="event-scene church">
         <div class="event-card reveal">
-          <div class="event-topline"><p class="event-kicker">The vows</p><span class="event-number">02</span></div>
+          <div class="event-topline"><p class="event-kicker">The vows</p><span class="event-number">01</span></div>
           <h3>Holy <span>Matrimony</span></h3>
           <dl class="event-facts"><div class="fact"><dt>Date</dt><dd>Monday, 28 December 2026</dd></div><div class="fact"><dt>Time</dt><dd>10:30 AM</dd></div><div class="fact"><dt>Church</dt><dd>St. Thomas Church<br>Perumalpuram, Tirunelveli</dd></div></dl>
           <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=St+Thomas+Church+Perumalpuram+Tirunelveli" target="_blank" rel="noopener noreferrer">View location <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5m0 0H8m11 0v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -234,7 +223,7 @@
 
       <article class="event-scene reception">
         <div class="event-card reveal">
-          <div class="event-topline"><p class="event-kicker">The celebration</p><span class="event-number">03</span></div>
+          <div class="event-topline"><p class="event-kicker">The celebration</p><span class="event-number">02</span></div>
           <h3>The <span>Reception</span></h3>
           <dl class="event-facts"><div class="fact"><dt>Date</dt><dd>Monday, 28 December 2026</dd></div><div class="fact"><dt>Time</dt><dd>Following the wedding service</dd></div><div class="fact"><dt>Venue</dt><dd>JK Mahal<br>Melapalayam, Tirunelveli</dd></div></dl>
           <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=JK+Mahal+Melapalayam+Tirunelveli" target="_blank" rel="noopener noreferrer">View location <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5m0 0H8m11 0v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
