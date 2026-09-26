@@ -99,8 +99,8 @@
     /* Page II: event scenes */
     .events-page { background: var(--ink); }
     .events-title { position: relative; display: grid; place-items: center; min-height: 48svh; padding: 82px 24px; color: var(--paper); text-align: center; background: var(--ink); }
-    .events-title h2 { max-width: 10ch; margin: 13px 0 0; font: 400 clamp(3.5rem, 14vw, 6.4rem)/.87 var(--serif); letter-spacing: -.06em; }
-    .events-title h2 span { display: block; color: var(--blush); font-family: var(--serif); font-style: italic; }
+    .events-title h2 { max-width: 12ch; margin: 13px 0 0; font: 400 clamp(3.5rem, 14vw, 6.4rem)/.95 var(--serif); letter-spacing: -.015em; }
+    .events-title h2 span { display: block; color: var(--blush); font-family: var(--serif); font-style: italic; letter-spacing: .015em; }
     .events-title .eyebrow { color: var(--bisque); }
     .event-scene { --parallax-y: 0px; position: relative; display: flex; align-items: flex-end; min-height: 100svh; padding: 22px 20px 30px; isolation: isolate; overflow: hidden; background: var(--champagne); }
     .event-scene::before { content: ""; position: absolute; inset: -5%; z-index: -2; background-position: center; background-size: cover; transform: translate3d(0, var(--parallax-y), 0) scale(1.06); will-change: transform; }
@@ -169,7 +169,7 @@
   <div class="grain" aria-hidden="true"></div>
   <div class="feather-field" aria-hidden="true">
     <img class="feather feather-one" src="assets/ivory-feather-v1.png" alt="">
-    <img class="feather feather-" src="assets/ivory-feather-v1.png" alt="">
+    <img class="feather feather-two" src="assets/ivory-feather-v1.png" alt="">
     <img class="feather feather-three" src="assets/ivory-feather-v1.png" alt="">
   </div>
 
@@ -188,7 +188,7 @@
   <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
   <nav class="mini-nav" aria-label="Invitation pages">
     <a href="#page-one" data-section="page-one" aria-label="Page one">I</a>
-    <a href="#page-" data-section="page-" aria-label="Page ">II</a>
+    <a href="#page-two" data-section="page-two" aria-label="Page two">II</a>
     <a href="#page-three" data-section="page-three" aria-label="Page three">III</a>
     <a href="#page-four" data-section="page-four" aria-label="Page four">IV</a>
   </nav>
