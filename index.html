@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#fbead6">
   <meta name="color-scheme" content="only light">
   <meta name="supported-color-schemes" content="light">
-  <meta name="description" content="You are warmly invited to the wedding celebrations of Cameron Isaac and Christline Jeffrenica from 27 to 29 December 2026.">
+  <meta name="description" content="You are warmly invited to the wedding of Cameron Isaac and Christline Jeffrenica on 28 December 2026 in Tirunelveli.">
   <title>Cameron Isaac &amp; Christline Jeffrenica — Wedding Invitation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,9 +76,9 @@
     .page { width: 100%; overflow: clip; background: var(--champagne); }
     .progress { position: fixed; top: 0; left: 0; z-index: 75; width: 100%; height: 3px; background: rgba(56,42,38,.06); }
     .progress span { display: block; width: 0; height: 100%; background: var(--rose); }
-    .mini-nav { position: fixed; z-index: 65; right: max(12px, env(safe-area-inset-right)); bottom: max(14px, env(safe-area-inset-bottom)); display: flex; gap: 3px; max-width: calc(100vw - 24px); padding: 6px; border: 1px solid rgba(56,42,38,.12); border-radius: 999px; background: rgba(255,250,243,.84); box-shadow: 0 12px 34px rgba(56,42,38,.12); backdrop-filter: blur(16px); opacity: 0; transform: translateY(14px); transition: opacity .5s, transform .5s; }
+    .mini-nav { position: fixed; z-index: 65; right: max(12px, env(safe-area-inset-right)); bottom: max(14px, env(safe-area-inset-bottom)); display: flex; gap: 5px; padding: 6px; border: 1px solid rgba(56,42,38,.12); border-radius: 999px; background: rgba(255,250,243,.84); box-shadow: 0 12px 34px rgba(56,42,38,.12); backdrop-filter: blur(16px); opacity: 0; transform: translateY(14px); transition: opacity .5s, transform .5s; }
     body.invitation-open .mini-nav { opacity: 1; transform: none; }
-    .mini-nav a { display: grid; place-items: center; width: 34px; height: 34px; color: var(--ink); border-radius: 50%; text-decoration: none; font: 400 .69rem var(--serif); }
+    .mini-nav a { display: grid; place-items: center; width: 38px; height: 38px; color: var(--ink); border-radius: 50%; text-decoration: none; font: 400 .73rem var(--serif); }
     .mini-nav a[aria-current="true"] { color: white; background: var(--ink); }
 
     /* Page I: formal invitation */
@@ -102,23 +102,20 @@
     /* Page II: event scenes */
     .events-page { background: var(--ink); }
     .events-title { position: relative; display: grid; place-items: center; min-height: 48svh; padding: 82px 24px; color: var(--paper); text-align: center; background: var(--ink); }
-    .events-title h2 { max-width: 12ch; margin: 13px 0 0; font: 400 clamp(3.5rem, 14vw, 6.4rem)/.95 var(--serif); letter-spacing: -.015em; }
-    .events-title h2 span { display: block; color: var(--blush); font-family: var(--serif); font-style: italic; letter-spacing: .015em; }
+    .events-title h2 { max-width: 10ch; margin: 13px 0 0; font: 400 clamp(3.5rem, 14vw, 6.4rem)/.87 var(--serif); letter-spacing: -.06em; }
+    .events-title h2 span { display: block; color: var(--blush); font-family: var(--serif); font-style: italic; }
     .events-title .eyebrow { color: var(--bisque); }
     .event-scene { --parallax-y: 0px; position: relative; display: flex; align-items: flex-end; min-height: 100svh; padding: 22px 20px 30px; isolation: isolate; overflow: hidden; background: var(--champagne); }
     .event-scene::before { content: ""; position: absolute; inset: -5%; z-index: -2; background-position: center; background-size: cover; transform: translate3d(0, var(--parallax-y), 0) scale(1.06); will-change: transform; }
     .event-scene::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(31,23,20,.03) 22%, rgba(31,23,20,.12) 52%, rgba(31,23,20,.55) 100%); }
-    .engagement::before { background-image: url("assets/engagement-illustrated-v1.png"); background-position: center 68%; }
     .church::before { background-image: url("assets/church-illustrated-v1.png"); }
     .reception::before { background-image: url("assets/reception-illustrated-v1.png"); }
-    .encore::before { background-image: url("assets/coimbatore-encore-balcony-v1.png"); background-position: center; }
     .event-card { position: relative; z-index: 1; width: min(100%, 630px); margin: 0 auto; padding: 28px 24px 24px; border: 1px solid rgba(200,125,135,.28); background: rgba(251,234,214,.96); box-shadow: 0 25px 70px rgba(35,25,21,.2); backdrop-filter: blur(16px); }
     .event-topline { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
     .event-number { color: var(--rose); font: 400 1rem var(--serif); }
     .event-kicker { margin: 0; color: var(--thyme); font-size: .69rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
     .event-card h3 { margin: 15px 0 0; font: 400 clamp(2.6rem, 11vw, 4.4rem)/.88 var(--serif); letter-spacing: -.05em; }
     .event-card h3 span { color: var(--rose); font-family: var(--serif); font-style: italic; }
-    .encore .event-card h3 { font-size: clamp(2.25rem, 9.8vw, 4rem); line-height: .94; }
     .event-facts { display: grid; gap: 0; margin: 23px 0 0; border-top: 1px solid var(--line); }
     .fact { display: grid; grid-template-columns: 70px 1fr; gap: 14px; padding: 13px 0; border-bottom: 1px solid var(--line); }
     .fact dt { color: var(--thyme); font-size: .68rem; font-weight: 600; letter-spacing: .13em; text-transform: uppercase; }
@@ -161,8 +158,7 @@
       .event-scene { min-height: 920px; padding: 50px; }
       .event-card { margin: 0 0 0 max(4vw, 40px); padding: 37px 38px 32px; }
       .story-page { padding: 130px 48px 80px; }
-      .mini-nav { right: 22px; bottom: 22px; gap: 5px; }
-      .mini-nav a { width: 38px; height: 38px; font-size: .73rem; }
+      .mini-nav { right: 22px; bottom: 22px; }
     }
     @media (min-width: 1100px) {
       .event-scene { min-height: 88vh; background-attachment: fixed; }
@@ -210,76 +206,64 @@
     <a href="#page-two" data-section="page-two" aria-label="Page two">II</a>
     <a href="#page-three" data-section="page-three" aria-label="Page three">III</a>
     <a href="#page-four" data-section="page-four" aria-label="Page four">IV</a>
-    <a href="#page-five" data-section="page-five" aria-label="Page five">V</a>
-    <a href="#page-six" data-section="page-six" aria-label="Page six">VI</a>
-    <a href="#page-seven" data-section="page-seven" aria-label="Page seven">VII</a>
   </nav>
 
   <main class="page" id="main" tabindex="-1">
     <section class="formal-page" id="page-one" aria-labelledby="couple-title">
       <div class="formal-content">
         <p class="eyebrow reveal">A celebration of faith &amp; love</p>
-        <p class="formal-copy reveal delay-1">Together with our families, we solicit your prayers and esteemed presence to grace our holy matrimony</p>
+        <p class="parents reveal delay-1">Mr. Ravi &amp; Mrs. Kanaga Jeya</p>
+        <p class="formal-copy reveal delay-1">solicit your prayers and esteemed presence to grace the holy matrimony of their beloved daughter</p>
         <h1 class="couple-names reveal delay-2" id="couple-title"><strong><img src="assets/name-christline-jeffrenica-swash-v1.png" alt="Christline Jeffrenica"></strong><span class="with">with</span><strong><img src="assets/name-cameron-isaac-swash-v1.png" alt="Cameron Isaac"></strong></h1>
+        <p class="groom-family reveal delay-2">S/o Mr. Ernest Asir &amp; Mrs. Sylvia Ernest</p>
         <p class="wedding-date reveal delay-2">On December 28, 2026</p>
+        <div class="compliments reveal delay-2">With Best compliments from,<strong>Mr. Cyril, Mrs. Silvia &amp; Dilan Josyl.</strong></div>
       </div>
       <div class="page-label" aria-hidden="true">PAGE I</div>
     </section>
 
-    <section class="event-scene engagement" id="page-two" aria-labelledby="engagement-title">
-      <div class="event-card reveal">
-        <div class="event-topline"><p class="event-kicker">The beginning</p><span class="event-number">01</span></div>
-        <h3 id="engagement-title">The <span>Engagement</span></h3>
-        <dl class="event-facts"><div class="fact"><dt>Date</dt><dd>Sunday, 27 December 2026</dd></div><div class="fact"><dt>Time</dt><dd>6:30 PM</dd></div><div class="fact"><dt>Venue</dt><dd>JK Mahal<br>Melapalayam, Tirunelveli</dd></div></dl>
-        <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=JK+Mahal+Melapalayam+Tirunelveli" target="_blank" rel="noopener noreferrer">View location <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5m0 0H8m11 0v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-      </div>
-    </section>
+    <section class="events-page" id="page-two" aria-labelledby="events-heading">
+      <header class="events-title">
+        <div><p class="eyebrow reveal">The wedding celebrations</p><h2 class="reveal delay-1" id="events-heading">Two meaningful <span>moments</span></h2></div>
+      </header>
 
-    <section class="event-scene church" id="page-three" aria-labelledby="matrimony-title">
+      <article class="event-scene church">
         <div class="event-card reveal">
-          <div class="event-topline"><p class="event-kicker">The vows</p><span class="event-number">02</span></div>
-          <h3 id="matrimony-title">Holy <span>Matrimony</span></h3>
+          <div class="event-topline"><p class="event-kicker">The vows</p><span class="event-number">01</span></div>
+          <h3>Holy <span>Matrimony</span></h3>
           <dl class="event-facts"><div class="fact"><dt>Date</dt><dd>Monday, 28 December 2026</dd></div><div class="fact"><dt>Time</dt><dd>10:30 AM</dd></div><div class="fact"><dt>Church</dt><dd>St. Thomas Church<br>Perumalpuram, Tirunelveli</dd></div></dl>
           <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=St+Thomas+Church+Perumalpuram+Tirunelveli" target="_blank" rel="noopener noreferrer">View location <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5m0 0H8m11 0v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
-    </section>
+      </article>
 
-    <section class="event-scene reception" id="page-four" aria-labelledby="reception-title">
+      <article class="event-scene reception">
         <div class="event-card reveal">
-          <div class="event-topline"><p class="event-kicker">The celebration</p><span class="event-number">03</span></div>
-          <h3 id="reception-title">The <span>Reception</span></h3>
+          <div class="event-topline"><p class="event-kicker">The celebration</p><span class="event-number">02</span></div>
+          <h3>The <span>Reception</span></h3>
           <dl class="event-facts"><div class="fact"><dt>Date</dt><dd>Monday, 28 December 2026</dd></div><div class="fact"><dt>Time</dt><dd>Following the wedding service</dd></div><div class="fact"><dt>Venue</dt><dd>JK Mahal<br>Melapalayam, Tirunelveli</dd></div></dl>
           <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=JK+Mahal+Melapalayam+Tirunelveli" target="_blank" rel="noopener noreferrer">View location <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5m0 0H8m11 0v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
+      </article>
     </section>
 
-    <section class="event-scene encore" id="page-five" aria-labelledby="encore-title">
-      <div class="event-card reveal">
-        <div class="event-topline"><p class="event-kicker">Coimbatore soirée</p><span class="event-number">04</span></div>
-        <h3 id="encore-title">The <span>Reception:<br>Encore</span></h3>
-        <dl class="event-facts"><div class="fact"><dt>Date</dt><dd>Tuesday, 29 December 2026</dd></div><div class="fact"><dt>Time</dt><dd>6:30 PM</dd></div><div class="fact"><dt>Venue</dt><dd>CSI All Souls' Church Parish Hall<br>Race Course, Coimbatore</dd></div></dl>
-        <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=CSI+All+Souls+Church+Parish+Hall+Race+Course+Coimbatore" target="_blank" rel="noopener noreferrer">View location <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5m0 0H8m11 0v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-      </div>
-    </section>
-
-    <section class="story-page" id="page-six" aria-labelledby="story-title">
+    <section class="story-page" id="page-three" aria-labelledby="story-title">
       <div class="story-inner">
         <p class="eyebrow reveal">With grateful hearts</p>
         <h2 class="story-copy reveal delay-1" id="story-title">Two lives, one <em>beautiful beginning</em> — a celebration of love, faith and family.</h2>
         <p class="story-support reveal delay-2">Together with our families, we joyfully invite you to be part of the moments that will begin our forever.</p>
         <div class="countdown reveal" aria-label="Wedding countdown"><div><strong id="days">—</strong><span>Days</span></div><div><strong id="hours">—</strong><span>Hours</span></div><div><strong id="minutes">—</strong><span>Minutes</span></div><div><strong id="seconds">—</strong><span>Seconds</span></div></div>
       </div>
-      <div class="page-label" aria-hidden="true">PAGE VI</div>
+      <div class="page-label" aria-hidden="true">PAGE III</div>
     </section>
 
-    <section class="closing" id="page-seven" aria-labelledby="closing-title">
+    <section class="closing" id="page-four" aria-labelledby="closing-title">
       <div class="closing-inner">
         <p class="closing-message reveal">As we begin this journey together, your presence and prayers mean so much to us</p>
         <p class="with-love reveal delay-1">With love</p>
         <h2 class="reveal delay-2" id="closing-title"><img src="assets/name-cameron-swash-v1.png" alt="Cameron"><span>&amp;</span><img src="assets/name-christline-swash-v1.png" alt="Christline"></h2>
         <p class="closing-date reveal delay-2">28 · 12 · 2026</p>
       </div>
-      <div class="page-label" aria-hidden="true">PAGE VII</div>
+      <div class="page-label" aria-hidden="true">PAGE IV</div>
     </section>
   </main>
 
@@ -309,3 +293,4 @@
   </script>
 </body>
 </html>
+
